@@ -1,0 +1,182 @@
+{
+  "model": {
+    "dimensions": {
+      "administrative-classification": {
+        "dimensionType": "classification",
+        "primaryKey": [
+          "Osaston_numero",
+          "Tuloluvun_numero",
+          "Tulomomentin_numero"
+        ],
+        "attributes": {
+          "Osaston_numero": {
+            "source": "Osaston numero",
+            "title": "Osaston numero"
+          },
+          "Osaston_nimi": {
+            "source": "Osaston nimi",
+            "title": "Osaston nimi"
+          },
+          "Tuloluvun_numero": {
+            "source": "Tuloluvun numero",
+            "title": "Tuloluvun numero",
+            "parent": "Osaston_numero"
+          },
+          "Tuloluvun_nimi": {
+            "source": "Tuloluvun nimi",
+            "title": "Tuloluvun nimi"
+          },
+          "Tulomomentin_numero": {
+            "source": "Tulomomentin numero",
+            "title": "Tulomomentin numero",
+            "parent": "Tuloluvun_numero"
+          },
+          "Tulomomentin_nimi": {
+            "source": "Tulomomentin nimi",
+            "title": "Tulomomentin nimi"
+          },
+          "Tulomomentin_info_osa": {
+            "source": "Tulomomentin info-osa",
+            "title": "Tulomomentin info-osa"
+          }
+        },
+        "classificationType": "administrative"
+      },
+      "date": {
+        "dimensionType": "datetime",
+        "primaryKey": [
+          "Aiemmin_budjetoitu_V_lisatalousarvio_2014"
+        ],
+        "attributes": {
+          "Aiemmin_budjetoitu_V_lisatalousarvio_2014": {
+            "source": "Aiemmin budjetoitu V lisätalousarvio 2014",
+            "title": "Aiemmin budjetoitu V lisätalousarvio 2014"
+          }
+        }
+      }
+    },
+    "measures": {
+      "Maararaha": {
+        "source": "Määräraha",
+        "title": "Määräraha",
+        "currency": "EUR"
+      }
+    }
+  },
+  "regionCode": "eu",
+  "countryCode": "FI",
+  "cityCode": "Helsinki",
+  "fiscalPeriod": {
+    "start": "2014-01-01",
+    "end": "2014-12-31"
+  },
+  "title": "Finnish Government Income 2014",
+  "name": "budget-2014-v3-income",
+  "description": "Finnish Government Income 2014 as Open Spending from http://budjetti.vm.fi/indox/opendata-csv.jsp.",
+  "resources": [
+    {
+      "name": "utf8-valmis-osa-1",
+      "format": "csv",
+      "url": "https://raw.githubusercontent.com/okffi/os-2016/master/budget-2014-v3/UTF8-valmis-osa-1.csv",
+      "dialect": {
+        "csvddfVersion": 1,
+        "delimiter": ";",
+        "lineTerminator": "\n"
+      },
+      "schema": {
+        "fields": [
+          {
+            "title": "Osaston numero",
+            "name": "Osaston numero",
+            "slug": "Osaston_numero",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level1:code:full",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Osaston nimi",
+            "name": "Osaston nimi",
+            "slug": "Osaston_nimi",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level1:description",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Tuloluvun numero",
+            "name": "Tuloluvun numero",
+            "slug": "Tuloluvun_numero",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level2:code:full",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Tuloluvun nimi",
+            "name": "Tuloluvun nimi",
+            "slug": "Tuloluvun_nimi",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level2:description",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Tulomomentin numero",
+            "name": "Tulomomentin numero",
+            "slug": "Tulomomentin_numero",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level3:code:full",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Tulomomentin nimi",
+            "name": "Tulomomentin nimi",
+            "slug": "Tulomomentin_nimi",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level3:description",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Tulomomentin info-osa",
+            "name": "Tulomomentin info-osa",
+            "slug": "Tulomomentin_info_osa",
+            "type": "string",
+            "format": "default",
+            "osType": "administrative-classification:generic:level3:description",
+            "conceptType": "administrative-classification"
+          },
+          {
+            "title": "Määräraha",
+            "name": "Määräraha",
+            "slug": "Maararaha",
+            "type": "number",
+            "format": "default",
+            "osType": "value",
+            "conceptType": "value",
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "Aiemmin budjetoitu V lisätalousarvio 2014",
+            "name": "Aiemmin budjetoitu V lisätalousarvio 2014",
+            "slug": "Aiemmin_budjetoitu_V_lisatalousarvio_2014",
+            "type": "integer",
+            "format": "default",
+            "osType": "date:fiscal-year",
+            "conceptType": "date"
+          }
+        ],
+        "primaryKey": [
+          "Osaston numero",
+          "Tuloluvun numero",
+          "Tulomomentin numero",
+          "Aiemmin budjetoitu V lisätalousarvio 2014"
+        ]
+      }
+    }
+  ],
+  "@context": "http://schemas.frictionlessdata.io/fiscal-data-package.jsonld"
+}
