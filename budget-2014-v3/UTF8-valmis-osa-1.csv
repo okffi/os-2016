@@ -1,0 +1,20 @@
+Osaston numero;Osaston nimi;Tuloluvun numero;Tuloluvun nimi;Tulomomentin numero;Tulomomentin nimi;Tulomomentin info-osa;Määräraha;Aiemmin budjetoitu V lisätalousarvio 2014;Aiemmin budjetoitu IV lisätalousarvio 2014;Aiemmin budjetoitu III lisätalousarvio 2014;Aiemmin budjetoitu II lisätalousarvio 2014;Aiemmin budjetoitu I lisätalousarvio 2014;Aiemmin budjetoitu 2014;Toteutuma 2013;Toteutuma 2012
+11;"VEROT JA VERONLUONTEISET TULOT";01;"Tulon ja varallisuuden perusteella kannettavat verot";01;"Ansio- ja pääomatuloverot";"";250000000;;;;120000000;;8676000000;7847885671;7868649745
+11;"VEROT JA VERONLUONTEISET TULOT";01;"Tulon ja varallisuuden perusteella kannettavat verot";05;"Pankkivero";"";4500000;;;;;;133000000;133784691;
+11;"VEROT JA VERONLUONTEISET TULOT";04;"Liikevaihdon perusteella kannettavat verot ja maksut";03;"Apteekkimaksut";"";12700000;;;;;;143500000;152213453;144041810
+11;"VEROT JA VERONLUONTEISET TULOT";10;"Muut verot";05;"Varainsiirtovero";"";50000000;;;;80000000;;581000000;586394998;579667904
+12;"SEKALAISET TULOT";24;"Ulkoasiainministeriön hallinnonala";99;"Ulkoasiainministeriön hallinnonalan tulot";"";-500000;;;;;;17260000;13027321;29944459
+12;"SEKALAISET TULOT";25;"Oikeusministeriön hallinnonala";10;"Tuomioistuintulot";"";5000000;;;;;;27010000;34623812;33833367
+12;"SEKALAISET TULOT";25;"Oikeusministeriön hallinnonala";20;"Ulosottomaksut";"";4000000;;;;;;69000000;75927362;71683279
+12;"SEKALAISET TULOT";27;"Puolustusministeriön hallinnonala";99;"Puolustusministeriön hallinnonalan muut tulot";"";1000000;;;1000000;;;4200000;4313633;3028836
+12;"SEKALAISET TULOT";28;"Valtiovarainministeriön hallinnonala";87;"Tulot rahoitusmarkkinoiden vakauttamisesta";"";17000000;;;;;;;;
+12;"SEKALAISET TULOT";28;"Valtiovarainministeriön hallinnonala";92;"Euroopan unionin perinteisten omien varojen kantopalkkiot";"";-12000000;;;;;;52000000;42556912;46598501
+12;"SEKALAISET TULOT";31;"Liikenne- ja viestintäministeriön hallinnonala";10;"Liikenneviraston tulot";"";12360000;;;;;23159000;17716000;28945198;64145863
+12;"SEKALAISET TULOT";31;"Liikenne- ja viestintäministeriön hallinnonala";99;"Liikenne- ja viestintäministeriön hallinnonalan muut tulot";"";1859000;;;;;33000;50000;51058;46198
+12;"SEKALAISET TULOT";32;"Työ- ja elinkeinoministeriön hallinnonala";30;"Siirrot valtion talousarvion ulkopuolisista rahastoista ";"";100000000;;;;;;;;
+12;"SEKALAISET TULOT";32;"Työ- ja elinkeinoministeriön hallinnonala";31;"Palkkaturvamaksujen palautukset";"";4000000;;;;;;36327000;35978338;33624331
+12;"SEKALAISET TULOT";39;"Muut sekalaiset tulot";04;"Siirrettyjen määrärahojen peruutukset";"";24554000;;;;;77027000;50000000;98204236;517234763
+13;"KORKOTULOT, OSAKKEIDEN MYYNTITULOT JA VOITON TULOUTUKSET";01;"Korkotulot";05;"Korot muista lainoista";"";19000000;;;;;;93000000;101754205;61862938
+13;"KORKOTULOT, OSAKKEIDEN MYYNTITULOT JA VOITON TULOUTUKSET";03;"Osinkotulot ja osakkeiden myyntitulot";01;"Osinkotulot, pääomanpalautukset ja osakkeiden nettomyyntitulot";"";38000000;;;;;510000000;1475200000;1415684460;1383115096
+15;"LAINAT";01;"Valtiolle takaisin maksettavat lainat";04;"Muiden lainojen lyhennykset";"";69300000;;;;127448000;;323652000;191943706;312807120
+15;"LAINAT";03;"Valtion nettolainanotto ja velanhallinta";01;"Nettolainanotto ja velanhallinta";"";-433396000;;;;327406000;-23806000;7129086000;6419515623;4703307934

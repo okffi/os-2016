@@ -1,1 +1,5 @@
-Osaston numero;Osaston nimi;Tuloluvun numero;Tuloluvun nimi;Tulomomentin numero;Tulomomentin nimi;Tulomomentin info-osa;M
+Osaston numero;Osaston nimi;Tuloluvun numero;Tuloluvun nimi;Tulomomentin numero;Tulomomentin nimi;Tulomomentin info-osa;Määräraha;Aiemmin budjetoitu V lisätalousarvio 2014;Aiemmin budjetoitu IV lisätalousarvio 2014;Aiemmin budjetoitu III lisätalousarvio 2014;Aiemmin budjetoitu II lisätalousarvio 2014;Aiemmin budjetoitu I lisätalousarvio 2014;Aiemmin budjetoitu 2014;Toteutuma 2013;Toteutuma 2012
+11;"VEROT JA VERONLUONTEISET TULOT";01;"Tulon ja varallisuuden perusteella kannettavat verot";01;"Ansio- ja pääomatuloverot";"";250000000;;;;120000000;;8676000000;7847885671;7868649745
+11;"VEROT JA VERONLUONTEISET TULOT";01;"Tulon ja varallisuuden perusteella kannettavat verot";05;"Pankkivero";"";4500000;;;;;;133000000;133784691;
+11;"VEROT JA VERONLUONTEISET TULOT";04;"Liikevaihdon perusteella kannettavat verot ja maksut";03;"Apteekkimaksut";"";12700000;;;;;;143500000;152213453;144041810
+11;"VEROT JA VERONLUONTEISET TULOT";10;"Muut verot";05;"Varainsiirtovero";"";50000000;;;;80000000;;581000000;586394998;579667904
